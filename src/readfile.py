@@ -206,7 +206,7 @@ def Angle_HaloPos_eigenvector_plot(cosAngleH1,cosAngleH2, eigenvector, SubHalo1,
 #routines to read files	
 def FileOpenRead():
 	count = 0
-	f = open('../ELVIS_Halo_Catalogs/PairedCatalogs/'+PairName+".txt", 'r')
+	f = open('../data/ELVIS_Halo_Catalogs/PairedCatalogs/'+PairName+".txt", 'r')
 
 	header1 = f.readline()
 	header2 = f.readline()
